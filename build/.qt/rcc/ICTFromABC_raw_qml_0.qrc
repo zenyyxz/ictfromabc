@@ -1,6 +1,9 @@
 <RCC>
   <qresource prefix="/ictfromabc_uri/">
     <file alias="ui/ictfromabcUI.qml">/home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml</file>
+    <file alias="ui/components/NavBar.qml">/home/zenyyxz/Documents/ictfromabc/ui/components/NavBar.qml</file>
+    <file alias="ui/components/SideBar.qml">/home/zenyyxz/Documents/ictfromabc/ui/components/SideBar.qml</file>
+    <file alias="ui/components/Main_Shell.qml">/home/zenyyxz/Documents/ictfromabc/ui/components/Main_Shell.qml</file>
     <file alias="ui/theme/theme.qml">/home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml</file>
     <file alias="ui/theme/qmldir">/home/zenyyxz/Documents/ictfromabc/ui/theme/qmldir</file>
   </qresource>

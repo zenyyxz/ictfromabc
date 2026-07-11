@@ -21,6 +21,9 @@ qt_add_qml_module(ICTFromABC
     VERSION 1.0
     QML_FILES
         ui/ictfromabcUI.qml
+        ui/components/NavBar.qml
+        ui/components/SideBar.qml
+        ui/components/Main_Shell.qml
         ui/theme/theme.qml
         ui/theme/qmldir
     SOURCES

@@ -1,5 +1,8 @@
 module ictfromabc_uri
 typeinfo ICTFromABC.qmltypes
 prefer :/ictfromabc_uri/
+NavBar 1.0 ui/components/NavBar.qml
+SideBar 1.0 ui/components/SideBar.qml
+Main_Shell 1.0 ui/components/Main_Shell.qml
 depends QtQuick
 
