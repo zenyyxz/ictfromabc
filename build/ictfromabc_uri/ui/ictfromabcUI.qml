@@ -18,7 +18,7 @@ ApplicationWindow {
         width: parent.width - Theme.marginMain
         height: parent.height - Theme.marginMain
         radius: Theme.radiusM
-        color: Theme.white
+        color: "transparent"
         anchors.centerIn: parent
 
         ColumnLayout {
@@ -27,17 +27,10 @@ ApplicationWindow {
             NavBar {}
 
             RowLayout {
-                spacing: 0
-                Rectangle {
-                    Layout.preferredWidth: tabOne.width * 0.20
-                    Layout.fillHeight: true
-                    color: "blue"
-                }
-                Rectangle {
-                    Layout.fillHeight: true
-                    Layout.fillWidth: true
-                    color: "green"
-                }
+                Layout.topMargin: Theme.spacingLayout
+                spacing: Theme.spacingLayout
+                SideBar {}
+                Main_Shell {}
             }
         }
     }
