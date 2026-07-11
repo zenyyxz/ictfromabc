@@ -54,6 +54,7 @@ ApplicationWindow {
                         width: parent.width - 40
                         height: parent.height - 40
                         anchors.centerIn: parent
+                        color:"transparent"
 
                         ColumnLayout {
                             anchors.fill: parent
@@ -80,7 +81,7 @@ ApplicationWindow {
 
                                 Rectangle {
                                     width: parent.width - 40
-                                    height: parent.width - 40
+                                    height: parent.height - 40
                                     anchors.centerIn: parent
                                     color: "transparent"
 
@@ -214,6 +215,76 @@ ApplicationWindow {
                                                         }
                                                     }
                                                 }
+                                            }
+                                        }
+                                        Rectangle {
+                                            id: linkPlaceholder
+                                            Layout.fillWidth: true
+                                            Layout.preferredHeight: 50
+                                            color: "black"
+                                            radius: Theme.radiusXXL
+
+                                            RowLayout {
+                                                anchors.fill: parent
+                                                spacing: 0
+                                                
+                                                Rectangle {
+                                                    Layout.preferredWidth: linkPlaceholder.width/3
+                                                    Layout.fillHeight: true 
+                                                    radius: Theme.radiusXL
+                                                    color: "transparent"
+                                                    Image {
+                                                        width: 50
+                                                        height: 50
+                                                        source: "../../assets/youtube-color-svgrepo-com.svg"
+                                                        fillMode: Image.PreserveAspectFit
+                                                        anchors.centerIn: parent
+
+                                                        sourceSize.width: width
+                                                        sourceSize.height: height
+                                                    }
+                                                }
+                                                Rectangle {
+                                                    Layout.preferredWidth: linkPlaceholder.width/3
+                                                    Layout.fillHeight: true
+                                                    color: "transparent"
+                                                    Image {
+                                                        height: 50
+                                                        width: 50
+                                                        source: "../../assets/telegram-svgrepo-com.svg"
+                                                        fillMode: Image.PreserveAspectFit
+                                                        anchors.centerIn: parent
+
+                                                        sourceSize.width: width
+                                                        sourceSize.height: height
+                                                    }
+                                                }
+                                                Rectangle {
+                                                    Layout.preferredWidth: linkPlaceholder.width/3
+                                                    Layout.fillHeight: true
+                                                    radius: Theme.radiusXL
+                                                    color: "transparent"
+                                                    Image {
+                                                        width: 50
+                                                        height: 50
+                                                        fillMode: Image.PreserveAspectFit
+                                                        source: "../../assets/facebook-svgrepo-com.svg"
+                                                        anchors.centerIn: parent
+
+                                                        sourceSize.width: width
+                                                        sourceSize.height: height
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        Rectangle {
+                                            Layout.margins: Theme.marginMain
+                                            Layout.preferredHeight: 20
+                                            Layout.fillWidth: true
+                                            color: "transparent"
+                                            Text {
+                                                text: "©2026. All rights reserved."
+                                                anchors.centerIn: parent
                                             }
                                         }
                                     }
