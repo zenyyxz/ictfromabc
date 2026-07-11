@@ -67,8 +67,9 @@ ApplicationWindow {
                                 radius: Theme.radiusXL
 
                                 Text {
-                                    text: "Login to your account."
+                                    text: qsTr("Login to your account.")
                                     anchors.centerIn: parent
+                                   // wrapMode: Text.WordWrap
                                 }
                             }
 
@@ -91,32 +92,55 @@ ApplicationWindow {
                                         Rectangle {
                                             Layout.margins: Theme.marginMain
                                             Layout.fillWidth: true
-                                            Layout.preferredHeight: 60
+                                            Layout.preferredHeight: 50
                                             radius: Theme.radiusXXL
                                             color: Theme.grey
                                             border.color: Theme.black
 
-                                            Text {
-                                                text: "Enter your Phone Number"
+                                            TextField {
+                                                id: phoneInput
+                                                placeholderText: qsTr("Enter your Phone Number")
+                                                anchors.fill: parent
                                                 color: Theme.black
-                                                anchors.centerIn: parent
+                                                background: Rectangle {
+                                                    implicitHeight: parent.height
+                                                    implicitWidth: parent.width
+                                                    radius: Theme.radiusXXL
+                                                }
+                                                horizontalAlignment: TextInput.AlignHCenter
+                                                verticalAlignment: TextInput.AlignVCenter
+                                                onAccepted: {
+                                                    console.log("User entered phone number:", text)
+                                                }
                                             }
                                         }
                                         Rectangle {
                                             Layout.margins: Theme.marginMain
                                             Layout.fillWidth: true
-                                            Layout.preferredHeight: 60
+                                            Layout.preferredHeight: 50
                                             radius: Theme.radiusXXL
                                             border.color: Theme.black
                                             color: Theme.grey
 
-                                            Text {
-                                                text: "Enter your passcode."
+                                            TextField {
+                                                id: passwdInput
+                                                placeholderText: qsTr("Enter your passcode")
                                                 color: Theme.black
-                                                anchors.centerIn: parent
+                                                anchors.fill: parent
+                                                background: Rectangle {
+                                                    implicitWidth: parent.width
+                                                    implicitHeight: parent.height
+                                                    radius: Theme.radiusXXL
+                                                }
+                                                horizontalAlignment: TextInput.AlignHCenter
+                                                verticalAlignment: TextInput.AlignVCenter
+                                                onAccepted: {
+                                                    console.log("User entered passcode:", text)
+                                                }
                                             }
                                         }
 
+                                        // horizontal line
                                         Rectangle {
                                             Layout.margins: Theme.marginMain
                                             Layout.fillWidth: true
@@ -144,8 +168,10 @@ ApplicationWindow {
                                                     radius: Theme.radiusXL
 
                                                     Text {
-                                                        text: "Don't have an account? or Did you forgot your password?\nDon't worry, We got your back as always :)"
+                                                        width: parent.width
+                                                        text: "Don't have an account? or Did you forgot your password? Don't worry, We got your back as always :)"
                                                         anchors.centerIn: parent
+                                                        wrapMode: Text.WordWrap
                                                     }
                                                 }
                                                 Rectangle {
@@ -155,7 +181,7 @@ ApplicationWindow {
 
                                                     RowLayout {
                                                         anchors.fill: parent
-                                                        spacing: 10
+                                                        spacing: 6
 
                                                         Rectangle {
                                                             Layout.preferredWidth: parent.width / 2
