@@ -101,14 +101,16 @@ ApplicationWindow {
                                                 id: phoneInput
                                                 placeholderText: qsTr("Enter your Phone Number")
                                                 anchors.fill: parent
-                                                color: Theme.black
                                                 background: Rectangle {
-                                                    implicitHeight: parent.height
-                                                    implicitWidth: parent.width
+                                                    id: input1
+                                                    height: parent.height
+                                                    width: parent.width
                                                     radius: Theme.radiusXXL
+                                                    opacity: phoneInput.hovered ? 1.00 : 0.80
                                                 }
                                                 horizontalAlignment: TextInput.AlignHCenter
                                                 verticalAlignment: TextInput.AlignVCenter
+                                                hoverEnabled: true
                                                 onAccepted: {
                                                     console.log("User entered phone number:", text)
                                                 }
@@ -128,12 +130,14 @@ ApplicationWindow {
                                                 color: Theme.black
                                                 anchors.fill: parent
                                                 background: Rectangle {
-                                                    implicitWidth: parent.width
-                                                    implicitHeight: parent.height
+                                                    width: parent.width
+                                                    height: parent.height
                                                     radius: Theme.radiusXXL
+                                                    opacity: passwdInput.hovered ? 1.00 : 0.80
                                                 }
                                                 horizontalAlignment: TextInput.AlignHCenter
                                                 verticalAlignment: TextInput.AlignVCenter
+                                                hoverEnabled: true
                                                 onAccepted: {
                                                     console.log("User entered passcode:", text)
                                                 }
