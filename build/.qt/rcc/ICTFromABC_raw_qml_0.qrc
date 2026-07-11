@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/ictfromabc_uri/">
+    <file alias="ui/ictfromabcUI.qml">/home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml</file>
+  </qresource>
+</RCC>
+

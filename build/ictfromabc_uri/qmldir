@@ -1,0 +1,5 @@
+module ictfromabc_uri
+typeinfo ICTFromABC.qmltypes
+prefer :/ictfromabc_uri/
+depends QtQuick
+

@@ -1,0 +1,5 @@
+--resource
+/home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc.qrc
+--resource
+/home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ictfromabc_raw_qml_0.qrc
+/ictfromabc/ui/ictfromabcUI.qml

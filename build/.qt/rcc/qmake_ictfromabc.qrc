@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/ictfromabc">
+    <file alias="qmldir">/home/zenyyxz/Documents/ictfromabc/build/ictfromabc/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,16 @@
+--bare
+-I
+/home/zenyyxz/Documents/ictfromabc/build
+-I
+/home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri
+-I
+/home/zenyyxz/Documents/ictfromabc/build
+-I
+/usr/lib/qt6/qml
+--resource
+/home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc
+--resource
+/home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc
+/home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml
+--json
+/home/zenyyxz/Documents/ictfromabc/build/ICTFromABC_qmllint.json

@@ -1,0 +1,14 @@
+-rootPath
+/home/zenyyxz/Documents/ictfromabc
+-cmake-output
+-output-file
+/home/zenyyxz/Documents/ictfromabc/build/.qt/qml_imports/ictfromabc_build.cmake
+-importPath
+/home/zenyyxz/Documents/ictfromabc/build
+-importPath
+/home/zenyyxz/Documents/ictfromabc/build/ictfromabc
+-importPath
+/usr/lib/qt6/qml
+-qrcFiles
+/home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc.qrc
+/home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ictfromabc_raw_qml_0.qrc

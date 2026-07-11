@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_ICTFromABC_FILE /home/zenyyxz/Documents/ictfromabc/build/ICTFromABC)
+set(__QT_DEPLOY_TARGET_ICTFromABC_TYPE EXECUTABLE)
