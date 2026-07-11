@@ -10,7 +10,7 @@
 		"/usr/share/cmake/Modules/CMakeDetermineSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeSystem.cmake.in",
 		"/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles/4.3.4/CMakeSystem.cmake",
-		"/usr/share/cmake/Modules/CMakeUnixFindMake.cmake",
+		"/usr/share/cmake/Modules/CMakeNinjaFindMake.cmake",
 		"/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake",
 		"/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake",
@@ -90,6 +90,7 @@
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp",
 		"/usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/usr/share/cmake/Modules/Internal/FeatureTesting.cmake",
+		"/usr/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake",
 		"/usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
 		"/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles/4.3.4/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake",
@@ -1827,7 +1828,6 @@
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NETWORK_LIB",
-		"QT_NO_DEBUG",
 		"QT_OPENGL_LIB",
 		"QT_QMLINTEGRATION_LIB",
 		"QT_QML_LIB",
@@ -1873,7 +1873,7 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/usr/bin/g++",
 		"-std=gnu++20",
 		"-w",
 		"-dM",
