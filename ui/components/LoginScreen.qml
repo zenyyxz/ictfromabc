@@ -31,12 +31,12 @@ ApplicationWindow {
             Layout.fillHeight: true
             Layout.fillWidth: true
 
-            color: Theme.red
+            color: Theme.blue
         }
 
         Rectangle {
             Layout.fillHeight: true
-            Layout.preferredWidth: rightImage.implicitWidth
+            Layout.preferredWidth: (rightImage.implicitWidth / rightImage.implicitHeight) * height
 
             Image {
                 id: rightImage
