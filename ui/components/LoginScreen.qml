@@ -48,6 +48,179 @@ ApplicationWindow {
                     width: parent.width - 100
                     height: parent.height - 400
                     anchors.centerIn: parent
+
+                    Rectangle {
+                        id: loginFormPlaceholder
+                        width: parent.width - 40
+                        height: parent.height - 40
+                        anchors.centerIn: parent
+
+                        ColumnLayout {
+                            anchors.fill: parent
+                            spacing: Theme.spacingLayout
+
+                            Rectangle {
+                                Layout.fillWidth: true
+                                Layout.preferredHeight: 40
+                                color: Theme.grey
+                                radius: Theme.radiusXL
+
+                                Text {
+                                    text: "Login to your account."
+                                    anchors.centerIn: parent
+                                }
+                            }
+
+                            Rectangle {
+                                Layout.topMargin: Theme.marginMain
+                                Layout.fillHeight: true
+                                Layout.fillWidth: true
+                                radius: Theme.radiusXL
+                                color: Theme.grey
+
+                                Rectangle {
+                                    width: parent.width - 40
+                                    height: parent.width - 40
+                                    anchors.centerIn: parent
+                                    color: "transparent"
+
+                                    ColumnLayout {
+                                        anchors.fill: parent
+
+                                        Rectangle {
+                                            Layout.margins: Theme.marginMain
+                                            Layout.fillWidth: true
+                                            Layout.preferredHeight: 60
+                                            radius: Theme.radiusXXL
+                                            color: Theme.grey
+                                            border.color: Theme.black
+
+                                            Text {
+                                                text: "Enter your Phone Number"
+                                                color: Theme.black
+                                                anchors.centerIn: parent
+                                            }
+                                        }
+                                        Rectangle {
+                                            Layout.margins: Theme.marginMain
+                                            Layout.fillWidth: true
+                                            Layout.preferredHeight: 60
+                                            radius: Theme.radiusXXL
+                                            border.color: Theme.black
+                                            color: Theme.grey
+
+                                            Text {
+                                                text: "Enter your passcode."
+                                                color: Theme.black
+                                                anchors.centerIn: parent
+                                            }
+                                        }
+
+                                        Rectangle {
+                                            Layout.margins: Theme.marginMain
+                                            Layout.fillWidth: true
+                                            Layout.preferredHeight: 2
+                                            color: Theme.black
+                                            radius: Theme.radiusS
+                                        }
+
+                                        Rectangle {
+                                            Layout.margins: Theme.marginMain
+                                            Layout.fillWidth: true
+                                            Layout.fillHeight: true
+                                            radius: Theme.radiusXL
+                                            color: Theme.white
+
+                                            ColumnLayout {
+                                                anchors.fill: parent
+                                                Layout.margins: Theme.marginMain
+                                                spacing: 0
+
+                                                Rectangle {
+                                                    Layout.margins: Theme.marginMain
+                                                    Layout.fillWidth: true
+                                                    Layout.preferredHeight: 40
+                                                    radius: Theme.radiusXL
+
+                                                    Text {
+                                                        text: "Don't have an account? or Did you forgot your password?\nDon't worry, We got your back as always :)"
+                                                        anchors.centerIn: parent
+                                                    }
+                                                }
+                                                Rectangle {
+                                                    Layout.fillWidth: true
+                                                    Layout.fillHeight: true
+                                                    radius: Theme.radiusXL
+
+                                                    RowLayout {
+                                                        anchors.fill: parent
+                                                        spacing: 10
+
+                                                        Rectangle {
+                                                            Layout.preferredWidth: parent.width / 2
+                                                            Layout.preferredHeight: 60
+                                                            radius: Theme.radiusXL
+                                                            color: Theme.blue
+                                                            Layout.leftMargin: 10
+
+                                                            Text {
+                                                                text: "Create Account"
+                                                                anchors.centerIn: parent
+                                                                color: Theme.white
+                                                            }
+                                                        }
+                                                        Rectangle {
+                                                            Layout.fillWidth: true
+                                                            Layout.preferredHeight: 60
+                                                            radius: Theme.radiusXL
+                                                            color: Theme.red
+                                                            Layout.rightMargin: 10
+
+                                                            Text {
+                                                                text: "Reset Your Passcode"
+                                                                anchors.centerIn: parent
+                                                                color: Theme.black
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                Rectangle {
+                                                    Layout.fillHeight: true
+                                                    Layout.fillWidth: true
+                                                    radius: Theme.radiusXL
+                                                    
+                                                    ColumnLayout {
+                                                        anchors.fill: parent
+                                                        spacing: 0
+
+                                                        Rectangle {
+                                                            Layout.fillWidth: true
+                                                            Layout.preferredHeight: 40
+
+                                                            Text {
+                                                                text: "Need help?"
+                                                                anchors.centerIn: parent
+                                                            }
+                                                        }
+                                                        Rectangle {
+                                                            Layout.fillWidth: true
+                                                            Layout.fillHeight: true
+                                                            radius: Theme.radiusXL
+
+                                                            Text {
+                                                                text: "Phone: 071 455 5513"
+                                                                anchors.centerIn: parent
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
 
