@@ -68,6 +68,7 @@ include CMakeFiles/ICTFromABC_qmllint_module.dir/progress.make
 
 CMakeFiles/ICTFromABC_qmllint_module: /usr/lib/qt6/bin/qmllint
 CMakeFiles/ICTFromABC_qmllint_module: /home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml
+CMakeFiles/ICTFromABC_qmllint_module: /home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
 CMakeFiles/ICTFromABC_qmllint_module: .rcc/qmllint/ICTFromABC_module.rsp
 	cd /home/zenyyxz/Documents/ictfromabc && /usr/lib/qt6/bin/qmllint @/home/zenyyxz/Documents/ictfromabc/build/.rcc/qmllint/ICTFromABC_module.rsp
 

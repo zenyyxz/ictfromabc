@@ -483,6 +483,30 @@ build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.s
 
+build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.o: build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o
+
+build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.i: build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.i
+
+build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.s: build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.s
+
 ictfromabc_qmltyperegistrations.o: ictfromabc_qmltyperegistrations.cpp.o
 .PHONY : ictfromabc_qmltyperegistrations.o
 
@@ -573,6 +597,9 @@ help:
 	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.o"
 	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.i"
 	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.s"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.o"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.i"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.s"
 	@echo "... ictfromabc_qmltyperegistrations.o"
 	@echo "... ictfromabc_qmltyperegistrations.i"
 	@echo "... ictfromabc_qmltyperegistrations.s"

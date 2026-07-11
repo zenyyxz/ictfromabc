@@ -3,3 +3,4 @@
 --resource
 /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc
 /ictfromabc_uri/ui/ictfromabcUI.qml
+/ictfromabc_uri/ui/theme/theme.qml

@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls
+import "theme"
 
 ApplicationWindow {
     id: root
@@ -8,10 +9,14 @@ ApplicationWindow {
     title: "ictfromabc"
 
     visibility: ApplicationWindow.FullScreen
+    color: Theme.black
     
     Rectangle {
-        width: parent.width
-        height: parent.height
-        color: "red"
+        id: tabOne
+        width: parent.width - Theme.marginMain
+        height: parent.height - Theme.marginMain
+        radius: Theme.radiusM
+        color: Theme.white
+        anchors.centerIn: parent
     }
 }

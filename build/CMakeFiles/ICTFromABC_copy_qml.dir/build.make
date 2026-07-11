@@ -70,6 +70,8 @@ CMakeFiles/ICTFromABC_copy_qml: .qt/ICTFromABC_qml.txt
 
 .qt/ICTFromABC_qml.txt: /usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 .qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml
+.qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
+.qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/theme/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying ICTFromABC qml sources into build dir"
 	/usr/bin/cmake -DFILES_INFO_PATH=/home/zenyyxz/Documents/ictfromabc/build/.qt/ICTFromABC_qml.cmake -P /usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

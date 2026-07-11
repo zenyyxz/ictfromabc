@@ -12,6 +12,13 @@ namespace _ictfromabc_uri_ui_ictfromabcUI_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _ictfromabc_uri_ui_theme_theme_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -27,6 +34,7 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/ictfromabc_uri/ui/ictfromabcUI.qml"), &QmlCacheGeneratedCode::_ictfromabc_uri_ui_ictfromabcUI_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/ictfromabc_uri/ui/theme/theme.qml"), &QmlCacheGeneratedCode::_ictfromabc_uri_ui_theme_theme_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

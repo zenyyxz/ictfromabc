@@ -4,6 +4,10 @@ set(working_dir "/home/zenyyxz/Documents/ictfromabc")
 set(src_and_dest_list
     "/home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml"
     "/home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/ui/ictfromabcUI.qml"
+    "/home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml"
+    "/home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/ui/theme/theme.qml"
+    "/home/zenyyxz/Documents/ictfromabc/ui/theme/qmldir"
+    "/home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/ui/theme/qmldir"
 
 )
 set(timestamp_file "/home/zenyyxz/Documents/ictfromabc/build/.qt/ICTFromABC_qml.txt")

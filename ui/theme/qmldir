@@ -1,2 +1,2 @@
 # ui/theme/qmldir
-singleton theme 1.0 theme.qml
+singleton Theme 1.0 theme.qml

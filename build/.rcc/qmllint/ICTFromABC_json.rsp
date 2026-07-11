@@ -12,5 +12,6 @@
 --resource
 /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc
 /home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml
+/home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
 --json
 /home/zenyyxz/Documents/ictfromabc/build/ICTFromABC_qmllint.json

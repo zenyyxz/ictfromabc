@@ -72,6 +72,8 @@ CMakeFiles/ICTFromABC_qmlimportscan: .qt/qml_imports/ICTFromABC_build.cmake
 .qt/qml_imports/ICTFromABC_build.cmake: .qt/rcc/qmake_ictfromabc_uri.qrc
 .qt/qml_imports/ICTFromABC_build.cmake: .qt/rcc/ICTFromABC_raw_qml_0.qrc
 .qt/qml_imports/ICTFromABC_build.cmake: /home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml
+.qt/qml_imports/ICTFromABC_build.cmake: /home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
+.qt/qml_imports/ICTFromABC_build.cmake: /home/zenyyxz/Documents/ictfromabc/ui/theme/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for ICTFromABC"
 	cd /home/zenyyxz/Documents/ictfromabc && /usr/lib/qt6/qmlimportscanner @/home/zenyyxz/Documents/ictfromabc/build/.qt/qml_imports/ICTFromABC_build.rsp
 

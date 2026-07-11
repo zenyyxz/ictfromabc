@@ -21,6 +21,8 @@ qt_add_qml_module(ICTFromABC
     VERSION 1.0
     QML_FILES
         ui/ictfromabcUI.qml
+        ui/theme/theme.qml
+        ui/theme/qmldir
     SOURCES
         src/main.cxx
 )

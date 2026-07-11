@@ -69,6 +69,7 @@ include CMakeFiles/module_ICTFromABC_aotstats_target.dir/progress.make
 CMakeFiles/module_ICTFromABC_aotstats_target: .rcc/qmlcache/module_ICTFromABC.aotstats
 
 .rcc/qmlcache/module_ICTFromABC.aotstats: .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.aotstats
+.rcc/qmlcache/module_ICTFromABC.aotstats: .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.aotstats
 .rcc/qmlcache/module_ICTFromABC.aotstats: .rcc/qmlcache/module_ICTFromABC.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_ICTFromABC.aotstats"
 	/usr/lib/qt6/qmlaotstats aggregate /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/module_ICTFromABC.aotstatslist /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/module_ICTFromABC.aotstats
@@ -86,11 +87,26 @@ CMakeFiles/module_ICTFromABC_aotstats_target: .rcc/qmlcache/module_ICTFromABC.ao
 .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.aotstats: .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.aotstats
 
+.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: /home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
+.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: .qt/rcc/qmake_ictfromabc_uri.qrc
+.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: .qt/rcc/ICTFromABC_raw_qml_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: ictfromabc_uri/ICTFromABC.qmltypes
+.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: ictfromabc_uri/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp, .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/theme
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /ictfromabc_uri/ui/theme/theme.qml -I /home/zenyyxz/Documents/ictfromabc/build -I /usr/lib/qt6/qml -i /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/qmldir --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc --dump-aot-stats "--module-id=ictfromabc_uri(ICTFromABC)" -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp /home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
+
+.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.aotstats: .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.aotstats
+
 CMakeFiles/module_ICTFromABC_aotstats_target.dir/codegen:
 .PHONY : CMakeFiles/module_ICTFromABC_aotstats_target.dir/codegen
 
 module_ICTFromABC_aotstats_target: .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp
 module_ICTFromABC_aotstats_target: .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.aotstats
+module_ICTFromABC_aotstats_target: .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp
+module_ICTFromABC_aotstats_target: .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.aotstats
 module_ICTFromABC_aotstats_target: .rcc/qmlcache/module_ICTFromABC.aotstats
 module_ICTFromABC_aotstats_target: CMakeFiles/module_ICTFromABC_aotstats_target
 module_ICTFromABC_aotstats_target: CMakeFiles/module_ICTFromABC_aotstats_target.dir/build.make

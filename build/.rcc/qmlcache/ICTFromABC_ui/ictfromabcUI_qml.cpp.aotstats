@@ -10,15 +10,23 @@
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "visibility",
-                            "line": 10,
+                            "line": 11,
                             "message": "Could not find property \"visibility\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 12,
+                            "message": "Could not find property \"color\"."
                         },
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 2000,
                             "functionName": "width",
-                            "line": 13,
+                            "line": 16,
                             "message": ""
                         },
                         {
@@ -26,7 +34,31 @@
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 14,
+                            "line": 17,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "radius",
+                            "line": 18,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 19,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 20,
                             "message": ""
                         }
                     ],
