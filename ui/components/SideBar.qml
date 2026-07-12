@@ -51,7 +51,6 @@ Rectangle {
             iconSource: "../../assets/arrow-right-rectangle-svgrepo-com.svg"
             itemText: "GIT"
         }
-        // add a line break here.
-        
+        HLine {}
     }
 }
