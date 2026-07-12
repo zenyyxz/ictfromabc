@@ -1,0 +1,10 @@
+# Keep GitHub language stats focused on real source files
+build/** linguist-generated=true
+meta_types/** linguist-generated=true
+qmltypes/** linguist-generated=true
+
+# Explicitly classify the UI and build files used by this project
+*.qml linguist-language=QML
+*.qrc linguist-language=XML
+*.cmake linguist-language=CMake
+CMakeLists.txt linguist-language=CMake
