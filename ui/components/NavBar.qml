@@ -13,11 +13,12 @@ Rectangle {
     RowLayout {
         anchors.fill: parent
         spacing: Theme.spacingLayout
-        Rectangle {
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            color: Theme.black
 
+        Rectangle {
+            Layout.preferredHeight: 45
+            Layout.fillWidth: true
+            color: Theme.white
+            radius: Theme.radiusL
         }
         Rectangle {
             Layout.preferredHeight: 40
@@ -53,9 +54,31 @@ Rectangle {
             }
         }
         Rectangle {
-            Layout.fillHeight: true
+            Layout.preferredHeight: 45
             Layout.fillWidth: true
-            color: Theme.blue
+            color: Theme.white
+            radius: Theme.radiusM
+
+            Rectangle {
+                width: 40
+                height: 40
+                color: Theme.white
+                border.color: Theme.black
+                radius: Theme.radiusL
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.right: parent.right
+                anchors.rightMargin: Theme.marginS
+
+                Image {
+                    width: 20
+                    height: 20
+                    source: "../../assets/profile-round-1346-svgrepo-com.svg"
+                    fillMode: Image.PreserveAspectFit
+                    sourceSize.width: width
+                    sourceSize.height: height
+                    anchors.centerIn: parent
+                }
+            }
         }
     }
 }
