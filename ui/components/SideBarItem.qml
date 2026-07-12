@@ -10,7 +10,9 @@ Rectangle {
 
     Layout.fillWidth: true
     Layout.preferredHeight: 40
-    Layout.margins: Theme.marginMain
+    // Layout.margins: Theme.marginMain
+    Layout.leftMargin: Theme.marginS
+    Layout.rightMargin: Theme.marginS
     color: Theme.white
     radius: Theme.radiusM
 
@@ -35,7 +37,7 @@ Rectangle {
             id: sideBarItemTxt
             Layout.fillWidth: true
             Layout.fillHeight: true
-            color: "pink"
+            color: Theme.white
             radius: Theme.radiusM
 
             Text {
