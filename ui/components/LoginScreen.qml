@@ -25,7 +25,7 @@ ApplicationWindow {
                 Layout.preferredWidth: leftImage.implicitWidth
                 Layout.fillHeight: true
                 color: Theme.black
-                radius: Theme.radiusM
+                radius: Theme.radiusL
 
                 Image {
                     id: leftImage
@@ -39,7 +39,7 @@ ApplicationWindow {
                 Layout.fillHeight: true
                 Layout.fillWidth: true
                 color: Theme.black
-                radius: Theme.radiusM
+                radius: Theme.radiusXXL
 
                 Rectangle {
                     id: loginForm
@@ -49,7 +49,7 @@ ApplicationWindow {
                     height: parent.height - 400
                     anchors.centerIn: parent
 
-                    Rectangle {
+                    Rectangle { 
                         id: loginFormPlaceholder
                         width: parent.width - 40
                         height: parent.height - 40
@@ -101,12 +101,16 @@ ApplicationWindow {
                                                 id: phoneInput
                                                 placeholderText: qsTr("Enter your Phone Number")
                                                 anchors.fill: parent
+                                                color: Theme.black
                                                 background: Rectangle {
-                                                    id: input1
                                                     height: parent.height
                                                     width: parent.width
                                                     radius: Theme.radiusXXL
                                                     opacity: phoneInput.hovered ? 1.00 : 0.80
+
+                                                    Behavior on opacity {
+                                                        NumberAnimation { duration: 200 }
+                                                    }
                                                 }
                                                 horizontalAlignment: TextInput.AlignHCenter
                                                 verticalAlignment: TextInput.AlignVCenter
@@ -134,6 +138,10 @@ ApplicationWindow {
                                                     height: parent.height
                                                     radius: Theme.radiusXXL
                                                     opacity: passwdInput.hovered ? 1.00 : 0.80
+
+                                                    Behavior on opacity {
+                                                        NumberAnimation { duration: 200 }
+                                                    }
                                                 }
                                                 horizontalAlignment: TextInput.AlignHCenter
                                                 verticalAlignment: TextInput.AlignVCenter
@@ -162,7 +170,7 @@ ApplicationWindow {
 
                                             ColumnLayout {
                                                 anchors.fill: parent
-                                                Layout.margins: Theme.marginMain
+                                                anchors.margins: Theme.marginMain
                                                 spacing: 0
 
                                                 Rectangle {
@@ -179,38 +187,68 @@ ApplicationWindow {
                                                     }
                                                 }
                                                 Rectangle {
+                                                    id: fgpsswdNcrtacc_ph
                                                     Layout.fillWidth: true
                                                     Layout.fillHeight: true
                                                     radius: Theme.radiusXL
 
                                                     RowLayout {
                                                         anchors.fill: parent
-                                                        spacing: 6
+                                                        spacing: 12
+                                                        
+                                                        Button {
+                                                            id: createAccbtn
+                                                            text: qsTr("Create Account")
 
-                                                        Rectangle {
-                                                            Layout.preferredWidth: parent.width / 2
-                                                            Layout.preferredHeight: 60
-                                                            radius: Theme.radiusXL
-                                                            color: Theme.blue
-                                                            Layout.leftMargin: 10
-
-                                                            Text {
-                                                                text: "Create Account"
-                                                                anchors.centerIn: parent
-                                                                color: Theme.white
-                                                            }
-                                                        }
-                                                        Rectangle {
                                                             Layout.fillWidth: true
-                                                            Layout.preferredHeight: 60
-                                                            radius: Theme.radiusXL
-                                                            color: Theme.red
-                                                            Layout.rightMargin: 10
+                                                            Layout.preferredHeight:  40
+                                                            hoverEnabled: true
 
-                                                            Text {
-                                                                text: "Reset Your Passcode"
-                                                                anchors.centerIn: parent
-                                                                color: Theme.black
+                                                            contentItem: Text {
+                                                                text: createAccbtn.text
+                                                                color: createAccbtn.hovered ? Theme.black : Theme.white
+                                                                font.pixelSize: 14
+                                                                horizontalAlignment: Text.AlignHCenter
+                                                                verticalAlignment: Text.AlignVCenter
+                                                                Behavior on color {
+                                                                    ColorAnimation { duration: 200 }
+                                                                }
+                                                            }
+
+                                                            background: Rectangle {
+                                                                color: createAccbtn.hovered ? Theme.blue : Theme.black
+                                                                radius: Theme.radiusXXL
+                                                                Behavior on color {
+                                                                    ColorAnimation { duration: 200 }
+                                                                }
+                                                            } 
+                                                        }
+                                                        
+                                                        Button {
+                                                            id: forgotPasswdBtn
+                                                            text: qsTr("Forgot Passcode")
+
+                                                            Layout.fillWidth: true
+                                                            Layout.preferredHeight: 40
+                                                            hoverEnabled: true
+
+                                                            contentItem: Text {
+                                                                text: forgotPasswdBtn.text
+                                                                color: forgotPasswdBtn.hovered ? Theme.black : Theme.white
+                                                                font.pixelSize: 14
+                                                                horizontalAlignment: Text.AlignHCenter
+                                                                verticalAlignment: Text.AlignVCenter
+                                                                Behavior on color {
+                                                                    ColorAnimation { duration: 200 }
+                                                                }
+                                                            }
+
+                                                            background: Rectangle {
+                                                                color: forgotPasswdBtn.hovered ? Theme.red : Theme.black
+                                                                radius: Theme.radiusXXL
+                                                                Behavior on color {
+                                                                    ColorAnimation { duration: 200 }
+                                                                }
                                                             }
                                                         }
                                                     }
@@ -231,6 +269,7 @@ ApplicationWindow {
                                                             Text {
                                                                 text: "Need help?"
                                                                 anchors.centerIn: parent
+                                                                font.pixelSize: 12
                                                             }
                                                         }
                                                         Rectangle {
@@ -241,6 +280,7 @@ ApplicationWindow {
                                                             Text {
                                                                 text: "Phone: 071 455 5513"
                                                                 anchors.centerIn: parent
+                                                                font.pixelSize: 12
                                                             }
                                                         }
                                                     }
@@ -253,6 +293,7 @@ ApplicationWindow {
                                             Layout.preferredHeight: 50
                                             color: "black"
                                             radius: Theme.radiusXXL
+                                            Layout.margins: Theme.marginMain
 
                                             RowLayout {
                                                 anchors.fill: parent
@@ -315,6 +356,7 @@ ApplicationWindow {
                                             Text {
                                                 text: "©2026. All rights reserved."
                                                 anchors.centerIn: parent
+                                                font.pixelSize: 10
                                             }
                                         }
                                     }
