@@ -5,7 +5,7 @@ import "../theme"
 
 Rectangle {
     id: navBar
-    color: Theme.grey
+    color: Theme.black
     Layout.fillWidth: true
     Layout.preferredHeight: 50
     radius: Theme.radiusM
@@ -29,7 +29,7 @@ Rectangle {
                 id: searchBox
                 placeholderText: qsTr("Search...")
                 anchors.fill: parent
-                color: Theme.grey
+                color: Theme.black
                 font.pixelSize: 14
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
@@ -59,24 +59,54 @@ Rectangle {
             color: Theme.white
             radius: Theme.radiusM
 
-            Rectangle {
-                width: 40
-                height: 40
-                color: Theme.white
-                border.color: Theme.black
-                radius: Theme.radiusL
-                anchors.verticalCenter: parent.verticalCenter
-                anchors.right: parent.right
-                anchors.rightMargin: Theme.marginS
+            RowLayout {
+                anchors.fill: parent
+                spacing: Theme.spacingLayout
 
-                Image {
-                    width: 20
-                    height: 20
-                    source: "../../assets/profile-round-1346-svgrepo-com.svg"
-                    fillMode: Image.PreserveAspectFit
-                    sourceSize.width: width
-                    sourceSize.height: height
-                    anchors.centerIn: parent
+                Rectangle {
+                    Layout.fillWidth: true
+                    Layout.preferredHeight: 42
+                    Layout.leftMargin: Theme.marginS
+                    color: Theme.grey
+                    radius: Theme.radiusXL
+
+                    RowLayout {
+                        anchors.fill: parent
+                        spacing: Theme.spacingLayout
+
+                        NavBarIcon {
+                            iconSource: "../../assets/stats-svgrepo-com.svg"
+                            Layout.leftMargin: Theme.marginS
+                            radius: Theme.radiusXXL
+                        }
+                        NavBarIcon {
+                            iconSource: "../../assets/rocket-svgrepo-com.svg"
+                        }
+                        Item {
+                            Layout.fillWidth: true
+                        }
+                        NavBarIcon {
+                            iconSource: "../../assets/atom-02-svgrepo-com.svg"
+                        }
+                        NavBarIcon {
+                            iconSource: "../../assets/settings-minimalistic-svgrepo-com.svg"
+                            Layout.rightMargin: Theme.marginS
+                            radius: Theme.radiusXXL
+                        }
+                    }
+                }
+
+                Rectangle {
+                    Layout.preferredHeight: 40
+                    Layout.preferredWidth: 40
+                    Layout.rightMargin: Theme.marginS
+                    color: Theme.grey
+                    radius: Theme.radiusL
+
+                    NavBarIcon {
+                        iconSource: "../../assets/profile-round-1346-svgrepo-com.svg"
+                        anchors.centerIn: parent
+                    }
                 }
             }
         }
