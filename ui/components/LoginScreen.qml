@@ -190,12 +190,8 @@ ApplicationWindow {
                                         }
 
                                         // horizontal line
-                                        Rectangle {
+                                        HLine {
                                             Layout.margins: Theme.marginMain
-                                            Layout.fillWidth: true
-                                            Layout.preferredHeight: 2
-                                            color: Theme.black
-                                            radius: Theme.radiusS
                                         }
 
                                         Rectangle {
