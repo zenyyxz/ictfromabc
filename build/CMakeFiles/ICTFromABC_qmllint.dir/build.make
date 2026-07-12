@@ -68,6 +68,12 @@ include CMakeFiles/ICTFromABC_qmllint.dir/progress.make
 
 CMakeFiles/ICTFromABC_qmllint: /usr/lib/qt6/bin/qmllint
 CMakeFiles/ICTFromABC_qmllint: /home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml
+CMakeFiles/ICTFromABC_qmllint: /home/zenyyxz/Documents/ictfromabc/ui/components/NavBar.qml
+CMakeFiles/ICTFromABC_qmllint: /home/zenyyxz/Documents/ictfromabc/ui/components/SideBar.qml
+CMakeFiles/ICTFromABC_qmllint: /home/zenyyxz/Documents/ictfromabc/ui/components/Main_Shell.qml
+CMakeFiles/ICTFromABC_qmllint: /home/zenyyxz/Documents/ictfromabc/ui/components/HLine.qml
+CMakeFiles/ICTFromABC_qmllint: /home/zenyyxz/Documents/ictfromabc/ui/components/SideBarItem.qml
+CMakeFiles/ICTFromABC_qmllint: /home/zenyyxz/Documents/ictfromabc/ui/components/SocialButton.qml
 CMakeFiles/ICTFromABC_qmllint: /home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
 CMakeFiles/ICTFromABC_qmllint: .rcc/qmllint/ICTFromABC.rsp
 	cd /home/zenyyxz/Documents/ictfromabc && /usr/lib/qt6/bin/qmllint @/home/zenyyxz/Documents/ictfromabc/build/.rcc/qmllint/ICTFromABC.rsp

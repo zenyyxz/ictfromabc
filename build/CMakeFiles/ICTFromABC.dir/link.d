@@ -8,8 +8,15 @@ ICTFromABC: \
   CMakeFiles/ICTFromABC.dir/src/main.cxx.o \
   CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o \
   CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o \
+  CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o \
+  CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o \
+  CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o \
+  CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o \
+  CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o \
+  CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o \
   CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o \
   CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o \
+  CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o \
   /usr/lib/libQt6Quick.so.6.11.1 \
   /usr/lib/libQt6OpenGL.so.6.11.1 \
   /usr/lib/libQt6Gui.so.6.11.1 \
@@ -166,9 +173,23 @@ CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o:
 
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o:
 
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o:
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o:
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o:
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o:
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o:
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o:
+
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o:
 
 CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o:
+
+CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o:
 
 /usr/lib/libQt6Quick.so.6.11.1:
 

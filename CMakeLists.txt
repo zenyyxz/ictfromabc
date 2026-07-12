@@ -24,8 +24,26 @@ qt_add_qml_module(ICTFromABC
         ui/components/NavBar.qml
         ui/components/SideBar.qml
         ui/components/Main_Shell.qml
+        ui/components/HLine.qml
+        ui/components/SideBarItem.qml
+        ui/components/SocialButton.qml
         ui/theme/theme.qml
         ui/theme/qmldir
+    RESOURCES
+        assets/arrow-right-rectangle-svgrepo-com.svg
+        assets/book-svgrepo-com.svg
+        assets/card-tick-svgrepo-com.svg
+        assets/connect-svgrepo-com.svg
+        assets/facebook-svgrepo-com.svg
+        assets/file-text-svgrepo-com.svg
+        assets/notification-unread-lines-svgrepo-com.svg
+        assets/profile-round-1346-svgrepo-com.svg
+        assets/telegram-svgrepo-com.svg
+        assets/search-alt-2-svgrepo-com.svg
+        assets/video-frame-play-vertical-svgrepo-com.svg
+        assets/website-dashboard-svgrepo-com.svg
+        assets/website-click-svgrepo-com.svg
+        assets/youtube-color-svgrepo-com.svg
     SOURCES
         src/main.cxx
 )

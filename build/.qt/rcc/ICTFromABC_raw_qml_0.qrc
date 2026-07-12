@@ -4,6 +4,9 @@
     <file alias="ui/components/NavBar.qml">/home/zenyyxz/Documents/ictfromabc/ui/components/NavBar.qml</file>
     <file alias="ui/components/SideBar.qml">/home/zenyyxz/Documents/ictfromabc/ui/components/SideBar.qml</file>
     <file alias="ui/components/Main_Shell.qml">/home/zenyyxz/Documents/ictfromabc/ui/components/Main_Shell.qml</file>
+    <file alias="ui/components/HLine.qml">/home/zenyyxz/Documents/ictfromabc/ui/components/HLine.qml</file>
+    <file alias="ui/components/SideBarItem.qml">/home/zenyyxz/Documents/ictfromabc/ui/components/SideBarItem.qml</file>
+    <file alias="ui/components/SocialButton.qml">/home/zenyyxz/Documents/ictfromabc/ui/components/SocialButton.qml</file>
     <file alias="ui/theme/theme.qml">/home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml</file>
     <file alias="ui/theme/qmldir">/home/zenyyxz/Documents/ictfromabc/ui/theme/qmldir</file>
   </qresource>

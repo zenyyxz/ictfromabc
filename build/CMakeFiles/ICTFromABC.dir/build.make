@@ -102,6 +102,7 @@ ictfromabc_uri/ICTFromABC.qmltypes: ictfromabc_qmltyperegistrations.cpp
 .rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp: .rcc/qmlcache/ICTFromABC_qml_loader_file_list.rsp
 .rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp: .qt/rcc/qmake_ictfromabc_uri.qrc
 .rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp: .qt/rcc/ICTFromABC_raw_qml_0.qrc
+.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp: .qt/rcc/ICTFromABC_raw_res_0.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp"
 	/usr/lib/qt6/qmlcachegen --resource-name qmlcache_ICTFromABC -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp @/home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_qml_loader_file_list.rsp
 
@@ -109,49 +110,160 @@ ictfromabc_uri/ICTFromABC.qmltypes: ictfromabc_qmltyperegistrations.cpp
 .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp: /home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml
 .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp: .qt/rcc/qmake_ictfromabc_uri.qrc
 .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp: .qt/rcc/ICTFromABC_raw_qml_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp: .qt/rcc/ICTFromABC_raw_res_0.qrc
 .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp: ictfromabc_uri/ICTFromABC.qmltypes
 .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp: ictfromabc_uri/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp, .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui
-	/usr/lib/qt6/qmlcachegen --bare --resource-path /ictfromabc_uri/ui/ictfromabcUI.qml -I /home/zenyyxz/Documents/ictfromabc/build -I /usr/lib/qt6/qml -i /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/qmldir --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc --dump-aot-stats "--module-id=ictfromabc_uri(ICTFromABC)" -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp /home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /ictfromabc_uri/ui/ictfromabcUI.qml -I /home/zenyyxz/Documents/ictfromabc/build -I /usr/lib/qt6/qml -i /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/qmldir --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_res_0.qrc --dump-aot-stats "--module-id=ictfromabc_uri(ICTFromABC)" -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp /home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml
 
 .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.aotstats: .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.aotstats
+
+.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/NavBar.qml
+.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp: .qt/rcc/qmake_ictfromabc_uri.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp: .qt/rcc/ICTFromABC_raw_qml_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp: .qt/rcc/ICTFromABC_raw_res_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp: ictfromabc_uri/ICTFromABC.qmltypes
+.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp: ictfromabc_uri/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp, .rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /ictfromabc_uri/ui/components/NavBar.qml -I /home/zenyyxz/Documents/ictfromabc/build -I /usr/lib/qt6/qml -i /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/qmldir --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_res_0.qrc --dump-aot-stats "--module-id=ictfromabc_uri(ICTFromABC)" -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp /home/zenyyxz/Documents/ictfromabc/ui/components/NavBar.qml
+
+.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.aotstats: .rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.aotstats
+
+.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/SideBar.qml
+.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp: .qt/rcc/qmake_ictfromabc_uri.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp: .qt/rcc/ICTFromABC_raw_qml_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp: .qt/rcc/ICTFromABC_raw_res_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp: ictfromabc_uri/ICTFromABC.qmltypes
+.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp: ictfromabc_uri/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp, .rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /ictfromabc_uri/ui/components/SideBar.qml -I /home/zenyyxz/Documents/ictfromabc/build -I /usr/lib/qt6/qml -i /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/qmldir --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_res_0.qrc --dump-aot-stats "--module-id=ictfromabc_uri(ICTFromABC)" -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp /home/zenyyxz/Documents/ictfromabc/ui/components/SideBar.qml
+
+.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.aotstats: .rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.aotstats
+
+.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/Main_Shell.qml
+.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp: .qt/rcc/qmake_ictfromabc_uri.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp: .qt/rcc/ICTFromABC_raw_qml_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp: .qt/rcc/ICTFromABC_raw_res_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp: ictfromabc_uri/ICTFromABC.qmltypes
+.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp: ictfromabc_uri/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp, .rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /ictfromabc_uri/ui/components/Main_Shell.qml -I /home/zenyyxz/Documents/ictfromabc/build -I /usr/lib/qt6/qml -i /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/qmldir --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_res_0.qrc --dump-aot-stats "--module-id=ictfromabc_uri(ICTFromABC)" -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp /home/zenyyxz/Documents/ictfromabc/ui/components/Main_Shell.qml
+
+.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.aotstats: .rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.aotstats
+
+.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/HLine.qml
+.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp: .qt/rcc/qmake_ictfromabc_uri.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp: .qt/rcc/ICTFromABC_raw_qml_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp: .qt/rcc/ICTFromABC_raw_res_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp: ictfromabc_uri/ICTFromABC.qmltypes
+.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp: ictfromabc_uri/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp, .rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /ictfromabc_uri/ui/components/HLine.qml -I /home/zenyyxz/Documents/ictfromabc/build -I /usr/lib/qt6/qml -i /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/qmldir --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_res_0.qrc --dump-aot-stats "--module-id=ictfromabc_uri(ICTFromABC)" -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp /home/zenyyxz/Documents/ictfromabc/ui/components/HLine.qml
+
+.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.aotstats: .rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.aotstats
+
+.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/SideBarItem.qml
+.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp: .qt/rcc/qmake_ictfromabc_uri.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp: .qt/rcc/ICTFromABC_raw_qml_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp: .qt/rcc/ICTFromABC_raw_res_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp: ictfromabc_uri/ICTFromABC.qmltypes
+.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp: ictfromabc_uri/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp, .rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /ictfromabc_uri/ui/components/SideBarItem.qml -I /home/zenyyxz/Documents/ictfromabc/build -I /usr/lib/qt6/qml -i /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/qmldir --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_res_0.qrc --dump-aot-stats "--module-id=ictfromabc_uri(ICTFromABC)" -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp /home/zenyyxz/Documents/ictfromabc/ui/components/SideBarItem.qml
+
+.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.aotstats: .rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.aotstats
+
+.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/SocialButton.qml
+.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp: .qt/rcc/qmake_ictfromabc_uri.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp: .qt/rcc/ICTFromABC_raw_qml_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp: .qt/rcc/ICTFromABC_raw_res_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp: ictfromabc_uri/ICTFromABC.qmltypes
+.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp: ictfromabc_uri/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp, .rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /ictfromabc_uri/ui/components/SocialButton.qml -I /home/zenyyxz/Documents/ictfromabc/build -I /usr/lib/qt6/qml -i /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/qmldir --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_res_0.qrc --dump-aot-stats "--module-id=ictfromabc_uri(ICTFromABC)" -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp /home/zenyyxz/Documents/ictfromabc/ui/components/SocialButton.qml
+
+.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.aotstats: .rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.aotstats
 
 .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: /usr/lib/qt6/qmlcachegen
 .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: /home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
 .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: .qt/rcc/qmake_ictfromabc_uri.qrc
 .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: .qt/rcc/ICTFromABC_raw_qml_0.qrc
+.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: .qt/rcc/ICTFromABC_raw_res_0.qrc
 .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: ictfromabc_uri/ICTFromABC.qmltypes
 .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp: ictfromabc_uri/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp, .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp, .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/theme
-	/usr/lib/qt6/qmlcachegen --bare --resource-path /ictfromabc_uri/ui/theme/theme.qml -I /home/zenyyxz/Documents/ictfromabc/build -I /usr/lib/qt6/qml -i /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/qmldir --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc --dump-aot-stats "--module-id=ictfromabc_uri(ICTFromABC)" -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp /home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /ictfromabc_uri/ui/theme/theme.qml -I /home/zenyyxz/Documents/ictfromabc/build -I /usr/lib/qt6/qml -i /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_uri/qmldir --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qmake_ictfromabc_uri.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc --resource /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_res_0.qrc --dump-aot-stats "--module-id=ictfromabc_uri(ICTFromABC)" -o /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp /home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
 
 .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.aotstats: .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.aotstats
 
 .qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp: /home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml
+.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/NavBar.qml
+.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/SideBar.qml
+.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/Main_Shell.qml
+.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/HLine.qml
+.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/SideBarItem.qml
+.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp: /home/zenyyxz/Documents/ictfromabc/ui/components/SocialButton.qml
 .qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp: /home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
 .qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp: /home/zenyyxz/Documents/ictfromabc/ui/theme/qmldir
 .qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp: .qt/rcc/ICTFromABC_raw_qml_0.qrc
 .qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp: /usr/lib/qt6/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource ICTFromABC_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running rcc for resource ICTFromABC_raw_qml_0"
 	/usr/lib/qt6/rcc --output /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp --name ICTFromABC_raw_qml_0 /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_qml_0.qrc
+
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/arrow-right-rectangle-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/book-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/card-tick-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/connect-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/facebook-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/file-text-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/notification-unread-lines-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/profile-round-1346-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/telegram-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/search-alt-2-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/video-frame-play-vertical-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/website-dashboard-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/website-click-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /home/zenyyxz/Documents/ictfromabc/assets/youtube-color-svgrepo-com.svg
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: .qt/rcc/ICTFromABC_raw_res_0.qrc
+.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp: /usr/lib/qt6/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running rcc for resource ICTFromABC_raw_res_0"
+	/usr/lib/qt6/rcc --output /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp --name ICTFromABC_raw_res_0 /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/ICTFromABC_raw_res_0.qrc
 
 ICTFromABC_autogen/timestamp: /usr/lib/qt6/moc
 ICTFromABC_autogen/timestamp: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Automatic MOC and UIC for target ICTFromABC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Automatic MOC and UIC for target ICTFromABC"
 	/usr/bin/cmake -E cmake_autogen /home/zenyyxz/Documents/ictfromabc/build/CMakeFiles/ICTFromABC_autogen.dir/AutogenInfo.json ""
 	/usr/bin/cmake -E touch /home/zenyyxz/Documents/ictfromabc/build/ICTFromABC_autogen/timestamp
 
 meta_types/ICTFromABC_json_file_list.txt: /usr/lib/qt6/cmake_automoc_parser
 meta_types/ICTFromABC_json_file_list.txt: ICTFromABC_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running AUTOMOC file extraction for target ICTFromABC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Running AUTOMOC file extraction for target ICTFromABC"
 	/usr/lib/qt6/cmake_automoc_parser --cmake-autogen-cache-file /home/zenyyxz/Documents/ictfromabc/build/CMakeFiles/ICTFromABC_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/zenyyxz/Documents/ictfromabc/build/CMakeFiles/ICTFromABC_autogen.dir/AutogenInfo.json --output-file-path /home/zenyyxz/Documents/ictfromabc/build/meta_types/ICTFromABC_json_file_list.txt --timestamp-file-path /home/zenyyxz/Documents/ictfromabc/build/meta_types/ICTFromABC_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/zenyyxz/Documents/ictfromabc/build/ICTFromABC_autogen/include
 
 meta_types/qt6ictfromabc_metatypes.json: meta_types/qt6ictfromabc_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating meta_types/qt6ictfromabc_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating meta_types/qt6ictfromabc_metatypes.json"
 	/usr/bin/cmake -E true
 
 CMakeFiles/ICTFromABC.dir/codegen:
@@ -160,7 +272,7 @@ CMakeFiles/ICTFromABC.dir/codegen:
 CMakeFiles/ICTFromABC.dir/ICTFromABC_autogen/mocs_compilation.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
 CMakeFiles/ICTFromABC.dir/ICTFromABC_autogen/mocs_compilation.cpp.o: ICTFromABC_autogen/mocs_compilation.cpp
 CMakeFiles/ICTFromABC.dir/ICTFromABC_autogen/mocs_compilation.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ICTFromABC.dir/ICTFromABC_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ICTFromABC.dir/ICTFromABC_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/ICTFromABC_autogen/mocs_compilation.cpp.o -MF CMakeFiles/ICTFromABC.dir/ICTFromABC_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/ICTFromABC.dir/ICTFromABC_autogen/mocs_compilation.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/ICTFromABC_autogen/mocs_compilation.cpp
 
 CMakeFiles/ICTFromABC.dir/ICTFromABC_autogen/mocs_compilation.cpp.i: cmake_force
@@ -174,7 +286,7 @@ CMakeFiles/ICTFromABC.dir/ICTFromABC_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/ICTFromABC.dir/ictfromabc_qmltyperegistrations.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
 CMakeFiles/ICTFromABC.dir/ictfromabc_qmltyperegistrations.cpp.o: ictfromabc_qmltyperegistrations.cpp
 CMakeFiles/ICTFromABC.dir/ictfromabc_qmltyperegistrations.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ICTFromABC.dir/ictfromabc_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ICTFromABC.dir/ictfromabc_qmltyperegistrations.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/ictfromabc_qmltyperegistrations.cpp.o -MF CMakeFiles/ICTFromABC.dir/ictfromabc_qmltyperegistrations.cpp.o.d -o CMakeFiles/ICTFromABC.dir/ictfromabc_qmltyperegistrations.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/ictfromabc_qmltyperegistrations.cpp
 
 CMakeFiles/ICTFromABC.dir/ictfromabc_qmltyperegistrations.cpp.i: cmake_force
@@ -188,7 +300,7 @@ CMakeFiles/ICTFromABC.dir/ictfromabc_qmltyperegistrations.cpp.s: cmake_force
 CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
 CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp.o: .qt/rcc/qrc_qmake_ictfromabc_uri.cpp
 CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp
 
 CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp.i: cmake_force
@@ -202,7 +314,7 @@ CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp.s: cmake_fo
 CMakeFiles/ICTFromABC.dir/src/main.cxx.o: CMakeFiles/ICTFromABC.dir/flags.make
 CMakeFiles/ICTFromABC.dir/src/main.cxx.o: /home/zenyyxz/Documents/ictfromabc/src/main.cxx
 CMakeFiles/ICTFromABC.dir/src/main.cxx.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ICTFromABC.dir/src/main.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ICTFromABC.dir/src/main.cxx.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/src/main.cxx.o -MF CMakeFiles/ICTFromABC.dir/src/main.cxx.o.d -o CMakeFiles/ICTFromABC.dir/src/main.cxx.o -c /home/zenyyxz/Documents/ictfromabc/src/main.cxx
 
 CMakeFiles/ICTFromABC.dir/src/main.cxx.i: cmake_force
@@ -216,7 +328,7 @@ CMakeFiles/ICTFromABC.dir/src/main.cxx.s: cmake_force
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o: .rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp
 
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.i: cmake_force
@@ -230,7 +342,7 @@ CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.s: 
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o: .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp
 
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.i: cmake_force
@@ -241,10 +353,94 @@ CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.s
 
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o: .rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp > CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.i
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.s
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o: .rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp > CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.i
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.s
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o: .rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp > CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.i
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.s
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o: .rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp > CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.i
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.s
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o: .rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp > CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.i
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.s
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o: .rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp > CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.i
+
+CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.s
+
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o: .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp
 
 CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.i: cmake_force
@@ -258,7 +454,7 @@ CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.
 CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
 CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o: .qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp
 CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp
 
 CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.i: cmake_force
@@ -269,6 +465,20 @@ CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp -o CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.s
 
+CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o: CMakeFiles/ICTFromABC.dir/flags.make
+CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o: .qt/rcc/qrc_ICTFromABC_raw_res_0.cpp
+CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o -MF CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o.d -o CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o -c /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp
+
+CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp > CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.i
+
+CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zenyyxz/Documents/ictfromabc/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp -o CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.s
+
 # Object files for target ICTFromABC
 ICTFromABC_OBJECTS = \
 "CMakeFiles/ICTFromABC.dir/ICTFromABC_autogen/mocs_compilation.cpp.o" \
@@ -277,8 +487,15 @@ ICTFromABC_OBJECTS = \
 "CMakeFiles/ICTFromABC.dir/src/main.cxx.o" \
 "CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o" \
 "CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o" \
+"CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o" \
+"CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o" \
+"CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o" \
+"CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o" \
+"CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o" \
+"CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o" \
 "CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o" \
-"CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o"
+"CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o" \
+"CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o"
 
 # External object files for target ICTFromABC
 ICTFromABC_EXTERNAL_OBJECTS =
@@ -289,8 +506,15 @@ ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp
 ICTFromABC: CMakeFiles/ICTFromABC.dir/src/main.cxx.o
 ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.o
 ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o
+ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o
+ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o
+ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o
+ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o
+ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o
+ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o
 ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp.o
 ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.o
+ICTFromABC: CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o
 ICTFromABC: CMakeFiles/ICTFromABC.dir/build.make
 ICTFromABC: CMakeFiles/ICTFromABC.dir/compiler_depend.ts
 ICTFromABC: /usr/lib/libQt6Quick.so.6.11.1
@@ -302,7 +526,7 @@ ICTFromABC: /usr/lib/libQt6Qml.so.6.11.1
 ICTFromABC: /usr/lib/libQt6Network.so.6.11.1
 ICTFromABC: /usr/lib/libQt6Core.so.6.11.1
 ICTFromABC: CMakeFiles/ICTFromABC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable ICTFromABC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable ICTFromABC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ICTFromABC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -314,8 +538,21 @@ CMakeFiles/ICTFromABC.dir/clean:
 .PHONY : CMakeFiles/ICTFromABC.dir/clean
 
 CMakeFiles/ICTFromABC.dir/depend: .qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp
+CMakeFiles/ICTFromABC.dir/depend: .qt/rcc/qrc_ICTFromABC_raw_res_0.cpp
 CMakeFiles/ICTFromABC.dir/depend: .qt/rcc/qrc_qmake_ictfromabc_uri.cpp
 CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.aotstats
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.aotstats
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.aotstats
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.aotstats
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.aotstats
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp
+CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.aotstats
 CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp
 CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.aotstats
 CMakeFiles/ICTFromABC.dir/depend: .rcc/qmlcache/ICTFromABC_ui/theme/theme_qml.cpp

@@ -12,6 +12,48 @@ namespace _ictfromabc_uri_ui_ictfromabcUI_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _ictfromabc_uri_ui_components_NavBar_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _ictfromabc_uri_ui_components_SideBar_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _ictfromabc_uri_ui_components_Main_Shell_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _ictfromabc_uri_ui_components_HLine_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _ictfromabc_uri_ui_components_SideBarItem_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _ictfromabc_uri_ui_components_SocialButton_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 namespace _ictfromabc_uri_ui_theme_theme_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -34,6 +76,12 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/ictfromabc_uri/ui/ictfromabcUI.qml"), &QmlCacheGeneratedCode::_ictfromabc_uri_ui_ictfromabcUI_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/ictfromabc_uri/ui/components/NavBar.qml"), &QmlCacheGeneratedCode::_ictfromabc_uri_ui_components_NavBar_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/ictfromabc_uri/ui/components/SideBar.qml"), &QmlCacheGeneratedCode::_ictfromabc_uri_ui_components_SideBar_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/ictfromabc_uri/ui/components/Main_Shell.qml"), &QmlCacheGeneratedCode::_ictfromabc_uri_ui_components_Main_Shell_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/ictfromabc_uri/ui/components/HLine.qml"), &QmlCacheGeneratedCode::_ictfromabc_uri_ui_components_HLine_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/ictfromabc_uri/ui/components/SideBarItem.qml"), &QmlCacheGeneratedCode::_ictfromabc_uri_ui_components_SideBarItem_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/ictfromabc_uri/ui/components/SocialButton.qml"), &QmlCacheGeneratedCode::_ictfromabc_uri_ui_components_SocialButton_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/ictfromabc_uri/ui/theme/theme.qml"), &QmlCacheGeneratedCode::_ictfromabc_uri_ui_theme_theme_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;

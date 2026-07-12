@@ -70,6 +70,12 @@ CMakeFiles/ICTFromABC_copy_qml: .qt/ICTFromABC_qml.txt
 
 .qt/ICTFromABC_qml.txt: /usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 .qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/ictfromabcUI.qml
+.qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/components/NavBar.qml
+.qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/components/SideBar.qml
+.qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/components/Main_Shell.qml
+.qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/components/HLine.qml
+.qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/components/SideBarItem.qml
+.qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/components/SocialButton.qml
 .qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/theme/theme.qml
 .qt/ICTFromABC_qml.txt: /home/zenyyxz/Documents/ictfromabc/ui/theme/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zenyyxz/Documents/ictfromabc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying ICTFromABC qml sources into build dir"

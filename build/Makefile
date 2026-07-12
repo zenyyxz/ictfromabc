@@ -411,6 +411,30 @@ build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.s
 .PHONY : build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.cpp.s
 
+build/.qt/rcc/qrc_ICTFromABC_raw_res_0.o: build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o
+.PHONY : build/.qt/rcc/qrc_ICTFromABC_raw_res_0.o
+
+# target to build an object file
+build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o
+.PHONY : build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.o
+
+build/.qt/rcc/qrc_ICTFromABC_raw_res_0.i: build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.i
+.PHONY : build/.qt/rcc/qrc_ICTFromABC_raw_res_0.i
+
+# target to preprocess a source file
+build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.i
+.PHONY : build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.i
+
+build/.qt/rcc/qrc_ICTFromABC_raw_res_0.s: build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.s
+.PHONY : build/.qt/rcc/qrc_ICTFromABC_raw_res_0.s
+
+# target to generate assembly for a file
+build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.s
+.PHONY : build/.qt/rcc/qrc_ICTFromABC_raw_res_0.cpp.s
+
 build/.qt/rcc/qrc_qmake_ictfromabc_uri.o: build/.qt/rcc/qrc_qmake_ictfromabc_uri.cpp.o
 .PHONY : build/.qt/rcc/qrc_qmake_ictfromabc_uri.o
 
@@ -458,6 +482,150 @@ build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.s: build/.rcc/qmlcache/ICTFromABC
 build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.s
 .PHONY : build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.cpp.s
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.o: build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.o
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.i: build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.i
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.s: build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.cpp.s
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.o: build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.o
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.i: build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.i
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.s: build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.cpp.s
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.o: build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.o
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.i: build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.i
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.s: build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.cpp.s
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.o: build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.o
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.i: build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.i
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.s: build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.cpp.s
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.o: build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.o
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.i: build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.i
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.s: build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.cpp.s
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.o: build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.o
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.i: build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.i
+
+build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.s: build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.cpp.s
 
 build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.o: build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.o
@@ -588,12 +756,33 @@ help:
 	@echo "... build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.o"
 	@echo "... build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.i"
 	@echo "... build/.qt/rcc/qrc_ICTFromABC_raw_qml_0.s"
+	@echo "... build/.qt/rcc/qrc_ICTFromABC_raw_res_0.o"
+	@echo "... build/.qt/rcc/qrc_ICTFromABC_raw_res_0.i"
+	@echo "... build/.qt/rcc/qrc_ICTFromABC_raw_res_0.s"
 	@echo "... build/.qt/rcc/qrc_qmake_ictfromabc_uri.o"
 	@echo "... build/.qt/rcc/qrc_qmake_ictfromabc_uri.i"
 	@echo "... build/.qt/rcc/qrc_qmake_ictfromabc_uri.s"
 	@echo "... build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.o"
 	@echo "... build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.i"
 	@echo "... build/.rcc/qmlcache/ICTFromABC_qmlcache_loader.s"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.o"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.i"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/HLine_qml.s"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.o"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.i"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/Main_Shell_qml.s"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.o"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.i"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/NavBar_qml.s"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.o"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.i"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/SideBarItem_qml.s"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.o"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.i"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/SideBar_qml.s"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.o"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.i"
+	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/components/SocialButton_qml.s"
 	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.o"
 	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.i"
 	@echo "... build/.rcc/qmlcache/ICTFromABC_ui/ictfromabcUI_qml.s"
