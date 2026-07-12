@@ -204,12 +204,15 @@ ApplicationWindow {
                                                             Layout.preferredHeight:  40
                                                             hoverEnabled: true
 
+                                                            onClicked: Qt.openUrlExternally("https://ictfromabc.com/auth/register")
+
                                                             contentItem: Text {
                                                                 text: createAccbtn.text
                                                                 color: createAccbtn.hovered ? Theme.black : Theme.white
                                                                 font.pixelSize: 14
                                                                 horizontalAlignment: Text.AlignHCenter
                                                                 verticalAlignment: Text.AlignVCenter
+
                                                                 Behavior on color {
                                                                     ColorAnimation { duration: 200 }
                                                                 }
@@ -218,10 +221,15 @@ ApplicationWindow {
                                                             background: Rectangle {
                                                                 color: createAccbtn.hovered ? Theme.blue : Theme.black
                                                                 radius: Theme.radiusXXL
+
                                                                 Behavior on color {
                                                                     ColorAnimation { duration: 200 }
                                                                 }
-                                                            } 
+
+                                                                HoverHandler {
+                                                                    cursorShape: Qt.PointingHandCursor
+                                                                }
+                                                            }
                                                         }
                                                         
                                                         Button {
@@ -232,12 +240,15 @@ ApplicationWindow {
                                                             Layout.preferredHeight: 40
                                                             hoverEnabled: true
 
+                                                            onClicked: Qt.openUrlExternally("https://www.ictfromabc.com")
+
                                                             contentItem: Text {
                                                                 text: forgotPasswdBtn.text
                                                                 color: forgotPasswdBtn.hovered ? Theme.black : Theme.white
                                                                 font.pixelSize: 14
                                                                 horizontalAlignment: Text.AlignHCenter
                                                                 verticalAlignment: Text.AlignVCenter
+
                                                                 Behavior on color {
                                                                     ColorAnimation { duration: 200 }
                                                                 }
@@ -246,8 +257,13 @@ ApplicationWindow {
                                                             background: Rectangle {
                                                                 color: forgotPasswdBtn.hovered ? Theme.red : Theme.black
                                                                 radius: Theme.radiusXXL
+
                                                                 Behavior on color {
                                                                     ColorAnimation { duration: 200 }
+                                                                }
+
+                                                                HoverHandler {
+                                                                    cursorShape: Qt.PointingHandCursor
                                                                 }
                                                             }
                                                         }
