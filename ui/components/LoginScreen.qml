@@ -299,52 +299,22 @@ ApplicationWindow {
                                                 anchors.fill: parent
                                                 spacing: 0
                                                 
-                                                Rectangle {
-                                                    Layout.preferredWidth: linkPlaceholder.width/3
-                                                    Layout.fillHeight: true 
-                                                    radius: Theme.radiusXL
-                                                    color: "transparent"
-                                                    Image {
-                                                        width: 50
-                                                        height: 50
-                                                        source: "../../assets/youtube-color-svgrepo-com.svg"
-                                                        fillMode: Image.PreserveAspectFit
-                                                        anchors.centerIn: parent
-
-                                                        sourceSize.width: width
-                                                        sourceSize.height: height
-                                                    }
+                                                SocialButton {
+                                                    iconSource: "../../assets/youtube-color-svgrepo-com.svg"
+                                                    onClicked: Qt.openUrlExternally("https://www.youtube.com/@RavinduBandaranayake")
                                                 }
-                                                Rectangle {
-                                                    Layout.preferredWidth: linkPlaceholder.width/3
-                                                    Layout.fillHeight: true
-                                                    color: "transparent"
-                                                    Image {
-                                                        height: 50
-                                                        width: 50
-                                                        source: "../../assets/telegram-svgrepo-com.svg"
-                                                        fillMode: Image.PreserveAspectFit
-                                                        anchors.centerIn: parent
-
-                                                        sourceSize.width: width
-                                                        sourceSize.height: height
-                                                    }
+                                                SocialButton {
+                                                    iconSource: "../../assets/telegram-svgrepo-com.svg"
+                                                    onClicked: Qt.openUrlExternally("https://telegram.org")
                                                 }
-                                                Rectangle {
-                                                    Layout.preferredWidth: linkPlaceholder.width/3
-                                                    Layout.fillHeight: true
-                                                    radius: Theme.radiusXL
-                                                    color: "transparent"
-                                                    Image {
-                                                        width: 50
-                                                        height: 50
-                                                        fillMode: Image.PreserveAspectFit
-                                                        source: "../../assets/facebook-svgrepo-com.svg"
-                                                        anchors.centerIn: parent
-
-                                                        sourceSize.width: width
-                                                        sourceSize.height: height
-                                                    }
+                                                SocialButton {
+                                                    iconSource: "../../assets/facebook-svgrepo-com.svg"
+                                                    onClicked: Qt.openUrlExternally("https://www.facebook.com/ravinduthegreat")
+                                                }
+                                                SocialButton {
+                                                    iconSource: "../../assets/website-dashboard-svgrepo-com.svg"
+                                                    onClicked: Qt.openUrlExternally("https://www.ictfromabc.com")
+                                                    color: Theme.red
                                                 }
                                             }
                                         }
