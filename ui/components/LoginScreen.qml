@@ -90,7 +90,8 @@ ApplicationWindow {
                                         anchors.fill: parent
 
                                         Rectangle {
-                                            Layout.margins: Theme.marginMain
+                                            Layout.leftMargin: Theme.marginMain
+                                            Layout.rightMargin: Theme.marginMain
                                             Layout.fillWidth: true
                                             Layout.preferredHeight: 50
                                             radius: Theme.radiusXXL
@@ -121,7 +122,8 @@ ApplicationWindow {
                                             }
                                         }
                                         Rectangle {
-                                            Layout.margins: Theme.marginMain
+                                            Layout.leftMargin: Theme.marginMain
+                                            Layout.rightMargin: Theme.marginMain
                                             Layout.fillWidth: true
                                             Layout.preferredHeight: 50
                                             radius: Theme.radiusXXL
@@ -148,6 +150,41 @@ ApplicationWindow {
                                                 hoverEnabled: true
                                                 onAccepted: {
                                                     console.log("User entered passcode:", text)
+                                                }
+                                            }
+                                        }
+                                        Button {
+                                            id: loginBtn
+                                            text: qsTr("Login")
+
+                                            Layout.fillWidth: true
+                                            Layout.preferredHeight: 40
+                                            Layout.leftMargin: Theme.marginMain
+                                            Layout.rightMargin: Theme.marginMain
+                                            hoverEnabled: true
+
+                                            contentItem: Text {
+                                                text: loginBtn.text
+                                                color: loginBtn.hovered ? Theme.black : Theme.white
+                                                font.pixelSize: 14
+                                                horizontalAlignment: Text.AlignHCenter
+                                                verticalAlignment: Text.AlignVCenter
+
+                                                Behavior on color {
+                                                    ColorAnimation { duration: 200 }
+                                                }
+                                            }
+
+                                            background: Rectangle {
+                                                color: loginBtn.hovered ? Theme.ictfromabc_native_red : Theme.black
+                                                radius: Theme.radiusXXL
+
+                                                Behavior on color {
+                                                    ColorAnimation { duration: 200 }
+                                                }
+
+                                                HoverHandler {
+                                                    cursorShape: Qt.PointingHandCursor
                                                 }
                                             }
                                         }
@@ -255,7 +292,7 @@ ApplicationWindow {
                                                             }
 
                                                             background: Rectangle {
-                                                                color: forgotPasswdBtn.hovered ? Theme.red : Theme.black
+                                                                color: forgotPasswdBtn.hovered ? Theme.ictfromabc_native_red : Theme.black
                                                                 radius: Theme.radiusXXL
 
                                                                 Behavior on color {
