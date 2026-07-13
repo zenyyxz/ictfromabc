@@ -33,6 +33,9 @@ qt_add_qml_module(ICTFromABC
         ui/theme/qmldir
     RESOURCES
         assets/arrow-right-rectangle-svgrepo-com.svg
+        assets/atom-02-svgrepo-com.svg
+        assets/rocket-svgrepo-com.svg
+        assets/stats-svgrepo-com.svg
         assets/book-svgrepo-com.svg
         assets/card-tick-svgrepo-com.svg
         assets/connect-svgrepo-com.svg
@@ -48,6 +51,7 @@ qt_add_qml_module(ICTFromABC
         assets/youtube-color-svgrepo-com.svg
         assets/loginScreenText.png
         assets/logo.png
+        assets/settings-minimalistic-svgrepo-com.svg
     SOURCES
         src/main.cxx
         include/authmanager.hxx

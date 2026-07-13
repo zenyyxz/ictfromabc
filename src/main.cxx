@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
     QQmlApplicationEngine engine;
 
     // Force all Qt DNS lookups to strictly use IPv4 addresses
-    // QHostInfo::lookupHost("localhost", [](const QHostInfo&){});
+    QHostInfo::lookupHost("localhost", [](const QHostInfo&){});
 
     AuthManager authManager;
 
