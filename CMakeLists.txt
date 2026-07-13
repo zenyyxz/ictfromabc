@@ -22,11 +22,13 @@ qt_add_qml_module(ICTFromABC
     QML_FILES
         ui/ictfromabcUI.qml
         ui/components/NavBar.qml
+        ui/components/NavBarIcon.qml
         ui/components/SideBar.qml
         ui/components/Main_Shell.qml
         ui/components/HLine.qml
         ui/components/SideBarItem.qml
         ui/components/SocialButton.qml
+        ui/components/LoginScreen.qml
         ui/theme/theme.qml
         ui/theme/qmldir
     RESOURCES
@@ -44,6 +46,8 @@ qt_add_qml_module(ICTFromABC
         assets/website-dashboard-svgrepo-com.svg
         assets/website-click-svgrepo-com.svg
         assets/youtube-color-svgrepo-com.svg
+        assets/loginScreenText.png
+        assets/logo.png
     SOURCES
         src/main.cxx
         include/authmanager.hxx

@@ -1,4 +1,6 @@
+#include <QDebug>
 #include "authmanager.hxx"
+
 #include <QNetworkRequest>
 #include <QJsonDocument>
 #include <QJsonObject>
@@ -33,8 +35,14 @@ void AuthManager::onLoginReply(QNetworkReply *reply)
 {
     reply->deleteLater();
 
+    qDebug() << "\n========== [DEBUG: LOGIN API RESPONSE] ==========";
+
     if (reply->error() == QNetworkReply::NoError) {
         QByteArray responseData = reply->readAll();
+        
+        // 1. Print the raw JSON response body from the server
+        qDebug() << "Raw Response Body:" << responseData;
+
         QJsonDocument doc = QJsonDocument::fromJson(responseData);
         QJsonObject json = doc.object();
 
@@ -42,15 +50,35 @@ void AuthManager::onLoginReply(QNetworkReply *reply)
             QString token = json["token"].toString();
             QString courseId = json["course_id"].toString();
 
+            // 2. Save to local storage
             QSettings settings("ICTFromABC_Client", "Auth");
             settings.setValue("saved_token", token);
             settings.setValue("course_id", courseId);
+            
+            // Sync forces QSettings to write immediately to disk (useful for debugging)
+            settings.sync(); 
+
+            qDebug() << ">>> Success: Authentication matches standard.";
+            qDebug() << ">>> Saved Token:" << token;
+            qDebug() << ">>> Saved Course ID:" << courseId;
+            
+            // 3. Verify it was actually written to the disk correctly
+            qDebug() << ">>> Verification from Disk Check:" 
+                     << (!settings.value("saved_token").toString().isEmpty() ? "VERIFIED (Token Exists)" : "FAILED TO SAVE");
+            qDebug() << "=================================================\n";
 
             emit loginSuccess();
         } else {
+            qDebug() << ">>> Logic Failure: Server replied but 'msg' was not successful.";
+            qDebug() << "=================================================\n";
             emit loginFailed("Invalid server response status.");
         }
     } else {
+        // Prints network layer issues (e.g., 404, 500, Host Unreachable, SSL errors)
+        qDebug() << ">>> Network Error Code:" << reply->error();
+        qDebug() << ">>> Network Error String:" << reply->errorString();
+        qDebug() << "=================================================\n";
+        
         emit loginFailed(reply->errorString());
     }
 }

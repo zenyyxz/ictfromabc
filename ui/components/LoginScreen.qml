@@ -3,12 +3,9 @@ import QtQuick.Layouts
 import QtQuick.Controls
 import "../theme"
 
-ApplicationWindow {
+Item {
     id: loginScreen
-    title: "ICTfromABC - Sri Lanka's Largest ICT Class"
-    color: Theme.ictfromabc_native_red
-    visible: true
-    visibility: ApplicationWindow.FullScreen
+    anchors.fill: parent
 
     Rectangle {
         width: parent.width - Theme.spacingLayout
@@ -117,7 +114,7 @@ ApplicationWindow {
                                                 verticalAlignment: TextInput.AlignVCenter
                                                 hoverEnabled: true
                                                 onAccepted: {
-                                                    console.log("User entered phone number:", text)
+                                                    authManager.login(phoneInput.text, passwdInput.text)
                                                 }
                                             }
                                         }
@@ -135,6 +132,7 @@ ApplicationWindow {
                                                 placeholderText: qsTr("Enter your passcode")
                                                 color: Theme.black
                                                 anchors.fill: parent
+                                                echoMode: TextInput.Password
                                                 background: Rectangle {
                                                     width: parent.width
                                                     height: parent.height
@@ -149,7 +147,7 @@ ApplicationWindow {
                                                 verticalAlignment: TextInput.AlignVCenter
                                                 hoverEnabled: true
                                                 onAccepted: {
-                                                    console.log("User entered passcode:", text)
+                                                    authManager.login(phoneInput.text, passwdInput.text)
                                                 }
                                             }
                                         }
@@ -162,6 +160,11 @@ ApplicationWindow {
                                             Layout.leftMargin: Theme.marginMain
                                             Layout.rightMargin: Theme.marginMain
                                             hoverEnabled: true
+
+                                            // Trigger backend C++ logic here
+                                            onClicked: {
+                                                authManager.login(phoneInput.text, passwdInput.text)
+                                            }
 
                                             contentItem: Text {
                                                 text: loginBtn.text
