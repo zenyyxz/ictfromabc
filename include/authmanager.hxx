@@ -10,6 +10,7 @@ class AuthManager : public QObject {
     explicit AuthManager(QObject *parent = nullptr);
 
     Q_INVOKABLE void login(const QString& phone, const QString& passcode);
+    Q_INVOKABLE bool hasSavedToken() const;
 
     signals:
     void loginSuccess();
