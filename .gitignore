@@ -1,5 +1,5 @@
 build/
 .vscode/
 tests/
-# rvsEng_API/
+rvsEng_API/
 logs/

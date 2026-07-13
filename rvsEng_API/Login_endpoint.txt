@@ -1,8 +1,0 @@
-Login API: https://ictfromabc.com/api/login
-http method: POST
-
-example1 request: {"phoneNumber":"0766762856","password":"Ayesha1234$","visitorId":"0L2Fcd0oYqW5YwRmUa4Z","confidenceScore":1}
-example1 response: {"msg":"Login Successful","token":"903199|ViVs1h57xfLXzzHKN27ggrpJa7omCJV52L73KjZt3be4b1f7","role":"STUDENT","skippable":1,"course_id":"2027-al"}
-
-example2 request: {"phoneNumber":"0766762856","password":"Ayesha1234$","visitorId":"0L2Fcd0oYqW5YwRmUa4Z","confidenceScore":1}
-example2 response: {"msg":"Login Successful","token":"903212|Wp08G851VUXSvmuq4oz9HDK5RSWYXHmGXDziDzJ8471e2ee0","role":"STUDENT","skippable":1,"course_id":"2027-al"}
