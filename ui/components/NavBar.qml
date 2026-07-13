@@ -19,6 +19,12 @@ Rectangle {
             Layout.fillWidth: true
             color: Theme.white
             radius: Theme.radiusL
+            Layout.leftMargin: Theme.marginXS
+
+            Text {
+                text: "I have no idea what to add inside this. let's add small things on the fly"
+                anchors.centerIn: parent
+            }
         }
         Rectangle {
             Layout.preferredHeight: 40
@@ -58,6 +64,7 @@ Rectangle {
             Layout.fillWidth: true
             color: Theme.white
             radius: Theme.radiusM
+            Layout.rightMargin: Theme.marginXS
 
             RowLayout {
                 anchors.fill: parent

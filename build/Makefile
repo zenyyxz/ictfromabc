@@ -699,6 +699,30 @@ ictfromabc_qmltyperegistrations.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/ictfromabc_qmltyperegistrations.cpp.s
 .PHONY : ictfromabc_qmltyperegistrations.cpp.s
 
+src/authmanager.o: src/authmanager.cxx.o
+.PHONY : src/authmanager.o
+
+# target to build an object file
+src/authmanager.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/src/authmanager.cxx.o
+.PHONY : src/authmanager.cxx.o
+
+src/authmanager.i: src/authmanager.cxx.i
+.PHONY : src/authmanager.i
+
+# target to preprocess a source file
+src/authmanager.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/src/authmanager.cxx.i
+.PHONY : src/authmanager.cxx.i
+
+src/authmanager.s: src/authmanager.cxx.s
+.PHONY : src/authmanager.s
+
+# target to generate assembly for a file
+src/authmanager.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ICTFromABC.dir/build.make CMakeFiles/ICTFromABC.dir/src/authmanager.cxx.s
+.PHONY : src/authmanager.cxx.s
+
 src/main.o: src/main.cxx.o
 .PHONY : src/main.o
 
@@ -792,6 +816,9 @@ help:
 	@echo "... ictfromabc_qmltyperegistrations.o"
 	@echo "... ictfromabc_qmltyperegistrations.i"
 	@echo "... ictfromabc_qmltyperegistrations.s"
+	@echo "... src/authmanager.o"
+	@echo "... src/authmanager.i"
+	@echo "... src/authmanager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

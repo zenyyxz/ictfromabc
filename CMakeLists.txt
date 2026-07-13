@@ -46,6 +46,8 @@ qt_add_qml_module(ICTFromABC
         assets/youtube-color-svgrepo-com.svg
     SOURCES
         src/main.cxx
+        include/authmanager.hxx
+        src/authmanager.cxx
 )
 
 # Link everything together
