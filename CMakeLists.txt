@@ -60,5 +60,6 @@ target_link_libraries(ICTFromABC PRIVATE
     Qt6::Gui
     Qt6::Quick
     Qt6::Qml
+    Qt6::Network
 )
 

@@ -163,6 +163,10 @@ Item {
 
                                             // Trigger backend C++ logic here
                                             onClicked: {
+                                                console.log("!!! QML CLICK DETECTED !!!")
+                                                console.log("Phone text value:", phoneInput.text)
+                                                console.log("Passcode text value:", passwdInput.text)
+                                                
                                                 authManager.login(phoneInput.text, passwdInput.text)
                                             }
 
