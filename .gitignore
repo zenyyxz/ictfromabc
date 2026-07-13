@@ -1,5 +1,5 @@
 build/
 .vscode/
 tests/
-rvsEng_API/
+revEng_API/
 logs/
