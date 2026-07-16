@@ -13,6 +13,7 @@ QtObject {
     readonly property color white: "#FFFFFF"
     readonly property color darkGrey: "#151517"
     readonly property color ictfromabc_native_red: "#D53F17"
+    readonly property color lightBlue: "#2879A2"
     
     // Radii
     readonly property real radiusXXL: 40.0

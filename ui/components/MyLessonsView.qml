@@ -10,7 +10,31 @@ Rectangle {
     color: Theme.grey
     GridLayout {
         anchors.fill: parent
+        columns: 4
+        rows: 3
+        columnSpacing: 10
+        rowSpacing: 6
     
+        LessonCard {
+            lessonImgSrc: "../../assets/python-svgrepo-com.svg"
+            lessonDes: "Python is a high-level, interpreted programming language known for its clear syntax and versatility. Created by Guido van Rossum and released in 1991, it has become one of the world's most popular languages due to its beginner-friendly nature and vast ecosystem."
+        }
+        LessonCard {
+            lessonImgSrc: "../../assets/python-svgrepo-com.svg"
+            lessonDes: "Python is a high-level, interpreted programming language known for its clear syntax and versatility. Created by Guido van Rossum and released in 1991, it has become one of the world's most popular languages due to its beginner-friendly nature and vast ecosystem."
+        }
+        LessonCard {
+            lessonImgSrc: "../../assets/python-svgrepo-com.svg"
+            lessonDes: "Python is a high-level, interpreted programming language known for its clear syntax and versatility. Created by Guido van Rossum and released in 1991, it has become one of the world's most popular languages due to its beginner-friendly nature and vast ecosystem."
+        }
+        LessonCard {
+            lessonImgSrc: "../../assets/python-svgrepo-com.svg"
+            lessonDes: "Python is a high-level, interpreted programming language known for its clear syntax and versatility. Created by Guido van Rossum and released in 1991, it has become one of the world's most popular languages due to its beginner-friendly nature and vast ecosystem."
+        }
+        LessonCard {
+            lessonImgSrc: "../../assets/python-svgrepo-com.svg"
+            lessonDes: "Python is a high-level, interpreted programming language known for its clear syntax and versatility. Created by Guido van Rossum and released in 1991, it has become one of the world's most popular languages due to its beginner-friendly nature and vast ecosystem."
+        }
         LessonCard {
             lessonImgSrc: "../../assets/python-svgrepo-com.svg"
             lessonDes: "Python is a high-level, interpreted programming language known for its clear syntax and versatility. Created by Guido van Rossum and released in 1991, it has become one of the world's most popular languages due to its beginner-friendly nature and vast ecosystem."

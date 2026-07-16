@@ -29,6 +29,9 @@ qt_add_qml_module(ICTFromABC
         ui/components/SideBarItem.qml
         ui/components/SocialButton.qml
         ui/components/LoginScreen.qml
+        ui/components/MyLessonsView.qml
+        ui/components/LessonCard.qml
+        ui/components/StartBtns.qml
         ui/theme/theme.qml
         ui/theme/qmldir
     RESOURCES
@@ -49,6 +52,9 @@ qt_add_qml_module(ICTFromABC
         assets/website-dashboard-svgrepo-com.svg
         assets/website-click-svgrepo-com.svg
         assets/youtube-color-svgrepo-com.svg
+        assets/python-svgrepo-com.svg
+        assets/documents-papers-svgrepo-com.svg
+        assets/voice-square-svgrepo-com.svg
         assets/loginScreenText.png
         assets/logo.png
         assets/settings-minimalistic-svgrepo-com.svg
