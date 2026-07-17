@@ -17,6 +17,7 @@ Rectangle {
         anchors.right: parent.right
         anchors.bottom: parent.bottom
         anchors.margins: Theme.marginMain
+        hoverEnabled: true
 
         background: Rectangle {
             z: 100
@@ -24,6 +25,10 @@ Rectangle {
             color: Theme.white
             border.color: Theme.black
             border.width: 3
+            
+            HoverHandler {
+                cursorShape: Qt.PointingHandCursor
+            }
 
             Image {
                 width: 40

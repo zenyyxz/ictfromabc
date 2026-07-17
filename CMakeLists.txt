@@ -4,10 +4,8 @@ project(ICTFromABC CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-include_directories(include)
-
 # Find required modules
-find_package(Qt6 COMPONENTS REQUIRED Core Gui Quick Qml Network)
+find_package(Qt6 COMPONENTS REQUIRED Core Gui Quick Qml Network Multimedia)
 
 # Standard project setup
 qt_standard_project_setup()
@@ -32,6 +30,7 @@ qt_add_qml_module(ICTFromABC
         ui/components/MyLessonsView.qml
         ui/components/LessonCard.qml
         ui/components/StartBtns.qml
+        ui/components/VideoPlayer.qml
         ui/theme/theme.qml
         ui/theme/qmldir
     RESOURCES
@@ -62,6 +61,10 @@ qt_add_qml_module(ICTFromABC
         src/main.cxx
         include/authmanager.hxx
         src/authmanager.cxx
+        include/localproxyserver.hxx
+        src/localproxyserver.cxx
+        include/videobackend.hxx
+        src/videobackend.cxx
 )
 
 # Link everything together
@@ -71,5 +74,6 @@ target_link_libraries(ICTFromABC PRIVATE
     Qt6::Quick
     Qt6::Qml
     Qt6::Network
+    Qt6::Multimedia
 )
 

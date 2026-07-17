@@ -18,6 +18,10 @@ Button {
         color: startBtn.hovered ? Theme.lightBlue : Theme.white
         radius: Theme.radiusL
 
+        HoverHandler {
+            cursorShape: Qt.PointingHandCursor
+        }
+
         Behavior on color {
             ColorAnimation { duration: 200 }
         }
