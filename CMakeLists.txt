@@ -53,7 +53,7 @@ qt_add_qml_module(ICTFromABC
         assets/website-click-svgrepo-com.svg
         assets/youtube-color-svgrepo-com.svg
         assets/python-svgrepo-com.svg
-        assets/documents-papers-svgrepo-com.svg
+        assets/paper-svgrepo-com.svg
         assets/voice-square-svgrepo-com.svg
         assets/loginScreenText.png
         assets/logo.png

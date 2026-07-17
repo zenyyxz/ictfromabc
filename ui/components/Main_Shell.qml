@@ -1,34 +1,39 @@
 import QtQuick
 import QtQuick.Layouts
+import QtQuick.Controls
 import "../theme"
 
 Rectangle {
+    id: mainShell
     Layout.fillHeight: true
     Layout.fillWidth: true
     color: Theme.white
     radius: Theme.radiusM
 
     // notifications icon
-    Rectangle {
+    Button {
         width: 50
         height: 50
-        z: 100
-        radius: (width + height) / 2
-        color: Theme.white
-        border.color: Theme.black
-        border.width: 3
         anchors.right: parent.right
         anchors.bottom: parent.bottom
         anchors.margins: Theme.marginMain
 
-        Image {
-            width: 40
-            height: 40
-            source: "../../assets/notification-unread-lines-svgrepo-com.svg"
-            sourceSize.width: width
-            sourceSize.height: height
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+        background: Rectangle {
+            z: 100
+            radius: (width + height) / 2
+            color: Theme.white
+            border.color: Theme.black
+            border.width: 3
+
+            Image {
+                width: 40
+                height: 40
+                source: "../../assets/notification-unread-lines-svgrepo-com.svg"
+                sourceSize.width: width
+                sourceSize.height: height
+                fillMode: Image.PreserveAspectFit
+                anchors.centerIn: parent
+            }
         }
     }
 
@@ -42,7 +47,6 @@ Rectangle {
             columns: 3
             rows: 3
             anchors.fill: parent
-            
 
             StartBtns {
                 iconSource: "../../assets/video-frame-play-vertical-svgrepo-com.svg"
@@ -53,7 +57,7 @@ Rectangle {
                 btnTxt: "Do Quizes"
             }
             StartBtns {
-                iconSource: "../../assets/documents-papers-svgrepo-com.svg"
+                iconSource: "../../assets/paper-svgrepo-com.svg"
                 btnTxt: "Do Papers"
             }
             StartBtns {
